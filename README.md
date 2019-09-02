@@ -17,3 +17,13 @@ Implementations of three Temporal-Difference (TD) methods:
 - Expected SARSA
 
 The algorithms were tested with the [CliffWalking OpenAI Gym environment](https://github.com/openai/gym/blob/master/gym/envs/toy_text/cliffwalking.py).
+
+# 3) OpenAI Gym’s Taxi-v2 Task
+Design an algorithm to teach a taxi agent to navigate a small gridworld using OpenAI Gym's [Taxi-v2](https://github.com/openai/gym/blob/master/gym/envs/toy_text/taxi.py) environment.
+
+Best average reward achieved = **9.3947**, using:
+- **Expected SARSA** method
+- Alpha = 0.01
+- Epsilon = 0.0005
+- Gamma = 1.0
+- 50,000 episodes
